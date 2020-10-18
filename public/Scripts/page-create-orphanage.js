@@ -83,7 +83,7 @@ function toggleSelect (event) {
     const button = event.currentTarget
     button.classList.add('active')
 
-    //atualizar o meu input escondido com o valor selecionado com o valor selicionado
+    //atualizar o meu input escondido com o valor selecionado 
     const input = document.querySelector('[name ="open_on_Weekends"]')
 
     input.value = button.dataSet.value
